@@ -119,7 +119,6 @@ const App = () => {
         />
         <button onClick={addToDb}>Submit</button>
       </div>
-      {/* <div className={styles.outputField}>{getItemJsx()}</div>  */}
       {getItemJsx()}
     </>
   );
